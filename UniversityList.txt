@@ -1,0 +1,11 @@
+1 CMU
+1 MIT
+1 Stanford
+1 UCB
+5 UIUC
+6 Cornell
+6 University of Washington
+8 Princeton University
+9 Geirgia Institute of Technology
+9 University of Texas--Austin
+
