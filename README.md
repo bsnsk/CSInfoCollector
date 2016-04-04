@@ -6,9 +6,9 @@ A tool for course Practice of Computer Network.
 
 
 - [ ] 1 CMU
-- [ ] 1 MIT
+- [x] 1 MIT
 - [ ] 1 SU
-- [ ] 1 UCB
+- [x] 1 UCB
 - [ ] 5 UIUC
 - [ ] 6 CU
 - [ ] 6 UW
