@@ -13,5 +13,5 @@ A tool for course Practice of Computer Network.
 - [x] 6 CU
 - [x] 6 UW
 - [x] 8 PU '
-- [ ] 9 GIT
+- [x] 9 GIT
 - [ ] 9 UTA
