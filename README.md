@@ -7,7 +7,7 @@ A tool for course Practice of Computer Network.
 
 - [ ] 1 CMU
 - [x] 1 MIT
-- [-] 1 SU
+- [x] 1 SU '
 - [x] 1 UCB
 - [-] 5 UIUC
 - [x] 6 CU
