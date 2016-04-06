@@ -6,11 +6,11 @@ A tool for course Practice of Computer Network.
 
 
 - [ ] 1 CMU
-- [x] 1 MIT
-- [x] 1 SU
-- [x] 1 UCB
-- [x] 5 UIUC
-- [ ] 6 CU
+- [-] 1 MIT
+- [-] 1 SU
+- [-] 1 UCB
+- [-] 5 UIUC
+- [x] 6 CU
 - [ ] 6 UW
 - [ ] 8 PU
 - [ ] 9 GIT
