@@ -20,8 +20,9 @@ def main():
         links.append("https://cs.illinois.edu/directory/" + pos[head:tail])
         head = tail + 2
         tail = len(pos) - 1
-        names.append(pos[head:tail].replace(' ', '_').replace('(', '').replace(')', '').replace(',', ''))
+        names.append(pos[head:tail])
 
+    print "#link=" + str(len(links))
     user_agent = {'User-agent': 'Mozilla/5.0'}
     L = len(links)
     for i in range(L):
