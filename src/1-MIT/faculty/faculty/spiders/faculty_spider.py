@@ -5,9 +5,9 @@ from faculty.items import FacultyItem
 
 class FacultySpider(scrapy.Spider):
     name = "faculty"
-    allowed_domains = ["cornell.edu"]
+    allowed_domains = ["mit.edu"]
     start_urls = [
-            "https://www.cs.cornell.edu/people/faculty"
+            "https://www.eecs.mit.edu/people/faculty-advisors"
     ]
 
     def person_info_parse(self, response):
@@ -17,7 +17,7 @@ class FacultySpider(scrapy.Spider):
         filename = url[len(item['link']):].rstrip('/')
         if filename == "":
             return
-        target_filename = "../../../data/6-CU/" + name.encode('utf-8') + "/" + filename.lstrip('/').encode('utf-8')
+        target_filename = "../../../data/1-MIT/" + name.encode('utf-8') + "/" + filename.lstrip('/').encode('utf-8')
         system('mkdir -p "' + '/'.join(target_filename.split('/')[:-1]) + '"')
         if os.path.isdir(target_filename):
             target_filename = target_filename + "/index.html"
@@ -31,14 +31,14 @@ class FacultySpider(scrapy.Spider):
         name = item['name']
         if name == "":
             return
-        filename = "../../../data/6-CU/" + name.encode('utf-8') + "/index.html"
+        filename = "../../../data/1-MIT/" + name.encode('utf-8') + "/index.html"
         print response.url,
         if os.path.isfile(filename):
             print " ... (skip)"
             return
         else:
             print " ..."
-        system('mkdir "../../../data/6-CU/' + name.encode('utf-8') + '"')
+        system('mkdir "../../../data/1-MIT/' + name.encode('utf-8') + '"')
         with open(filename, "w") as f:
             f.write(response.body)
         for sel in response.xpath('//a/@href'):
@@ -51,10 +51,12 @@ class FacultySpider(scrapy.Spider):
 
 
     def parse(self, response):
-        for sel in response.xpath('//*[contains(concat(" ", normalize-space(@class), " "), " person ")]')\
-                .xpath('*[contains(concat(" ", normalize-space(@class), " "), " info ")]'):
-            name = sel.xpath("h2/a/text()").extract()[0]
-            link = sel.xpath("h2/a/@href").extract()[0]
+        for sel in response.xpath('//*[contains(concat(" ", normalize-space(@class), " "), " views-field-title ")]')\
+                .xpath('*[contains(concat(" ", normalize-space(@class), " "), " card-title ")]'):
+            if len(sel.xpath("a").extract()) == 0:
+                continue
+            name = sel.xpath("a/text()").extract()[0]
+            link = sel.xpath("a/@href").extract()[0]
             if (name.upper() != "CLICK_HERE") and link.startswith("http"):
                 print "%s @@@ '%s'" % (name, link)
                 item = FacultyItem()
