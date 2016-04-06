@@ -11,7 +11,7 @@ A tool for course Practice of Computer Network.
 - [x] 1 UCB
 - [x] 5 UIUC
 - [x] 6 CU
-- [ ] 6 UW
+- [x] 6 UW
 - [ ] 8 PU
 - [ ] 9 GIT
 - [ ] 9 UTA
