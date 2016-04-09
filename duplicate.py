@@ -7,8 +7,9 @@ sys.stdout.flush()
 univ_name = raw_input()
 
 os.system("cp -r src/8-PU src/" + univ_name)
-os.system('cat src/8-PU/faculty/faculty/spiders/faculty_spider.py | tr "8\-PU" "' \
-    + univ_name + '" > src/' + univ_name + '/faculty/faculty/spiders/faculty_spider.py')
+os.system('sed "s/8-PU/'\
+ + univ_name + '/g" src/' + univ_name + '/faculty/faculty/spiders/faculty_spider.py > src/'\
+  + univ_name + '/faculty/faculty/spiders/faculty_spider.py')
 os.system("mkdir -p data/" + univ_name)
 
 print "Don't forget to change (1) allowed_domains (2) start_urls (3) xpath"
