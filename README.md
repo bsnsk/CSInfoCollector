@@ -20,7 +20,7 @@ A tool for course Practice of Computer Network.
 ## 71-80
 
 - [x] 70 CWM (College of William and Mary)
-- [ ] 70 CSU (Colorado State University)
+- [x] 70 CSU (Colorado State University)
 - [ ] 70 NPS (Naval Postgraduate School)
 - [ ] 70 NYU (New York University)
 - [ ] 70 TU (Tufts University)
