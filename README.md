@@ -22,7 +22,7 @@ A tool for course Practice of Computer Network.
 - [x] 70 CWM (College of William and Mary)
 - [x] 70 CSU (Colorado State University)
 - [x] 70 NPS (Naval Postgraduate School)
-- [ ] 70 NYU (New York University)
+- [x] 70 NYU (New York University)
 - [ ] 70 TU (Tufts University)
 - [ ] 70 UD (University of Delaware)
 - [ ] 70 UMBC (University of Maryland—​Baltimore County)
