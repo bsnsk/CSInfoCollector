@@ -26,6 +26,6 @@ A tool for course Practice of Computer Network.
 - [x] 70 TU (Tufts University)
 - [ ] 70 UD (University of Delaware)
 - [ ] 70 UMBC (University of Maryland—Baltimore County)
-- [ ] 70 UNL (University of Nebraska—Lincoln)
+- [x] 70 UNL (University of Nebraska—Lincoln)
 - [ ] 70 UTK (University of Tennessee—Knoxville)
 - [ ] 70 UTD (University of Texas—Dallas)
