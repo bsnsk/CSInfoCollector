@@ -28,7 +28,7 @@ A tool for course Practice of Computer Network.
 - [ ] 70 UMBC (University of Maryland—Baltimore County)
 - [x] 70 UNL (University of Nebraska—Lincoln)
 - [x] 70 UTK (University of Tennessee—Knoxville)
-- [ ] 70 UTD (University of Texas—Dallas)
+- [x] 70 UTD (University of Texas—Dallas)
 
 ## 31-40 (Dora)
 
