@@ -2,9 +2,15 @@
 
 Collectors for CS faculty information of several US universities.
 
-A tool for course Practice of Computer Network.
+A tool for course Computer Network, Peking University 2016. 
 
-## 1-10
+For more information, visit [CSInfo Project](https://bsnsk.github.io/project/2016/04/28/CSInfo.html).
+
+The way to run these spiders can be found on Scrapy Documentations.
+
+## University Progress List
+
+### 1-10
 
 - [x] 1 CMU (CSD only)
 - [x] 1 MIT
@@ -17,7 +23,7 @@ A tool for course Practice of Computer Network.
 - [x] 9 GIT
 - [x] 9 UTA
 
-## 71-80
+### 71-80
 
 - [x] 70 CWM (College of William and Mary)
 - [x] 70 CSU (Colorado State University)
@@ -30,7 +36,7 @@ A tool for course Practice of Computer Network.
 - [x] 70 UTK (University of Tennessee—Knoxville)
 - [x] 70 UTD (University of Texas—Dallas)
 
-## 31-40 (Dora)
+### 31-40 (Dora)
 
 - [ ] 29 UCI (University of California—​Irvine) 
 - [x] 29 UMN (University of Minnesota—​Twin Cities)
@@ -43,7 +49,7 @@ A tool for course Practice of Computer Network.
 - [x] 34 UCH (​University of Chicago)
 - [x] 40 DC (Dartmouth College​)
 
-## 41-50 (Dora)
+### 41-50 (Dora)
 - [x] 40 SBU (Stony Brook University—​SUNY) 
 - [x] 40 TAMU (Texas A&M University—​College Station)
 - [x] 40 UA (University of Arizona)
